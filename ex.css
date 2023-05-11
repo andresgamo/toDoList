@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+#container{
+    border-radius: 10px;
+    background-color: rgb(2, 200, 255);
+    border: groove rgb(4, 128, 163) 10px;
+    height: 90%;
+}
+
+body{
+    height: 100vh;
+    /* background-image: url(./assets/hoja.jpg);
+    background-repeat:inherit; */
+}
+
+ul{ 
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 95%;
+    gap: 1vh;
+    border: groove rgb(4, 128, 163) 3px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.container-li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0 1vh;
+    border: ridge rgb(5, 172, 218); ;
+    border-radius: 10px;
+}
+
+.color-green{
+    color: rgb(0, 98, 0);
+}
+
+.border-green{
+    border: solid rgb(0, 98, 0) 2px;
+    background-color: rgb(158, 249, 176);
+}
+
+.container-li-sec{
+    display: flex;
+}
+
+h1{
+    font-style: italic;
+}
+
+#task-entry{
+    border: solid rgb(4, 128, 163);
+    border-radius: 12px; 
+}
+
+#task{
+    width: 100%;
+}
+
+
